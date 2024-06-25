@@ -675,7 +675,7 @@
     <label for="menu-btn" class="menu-icon"><span class="navicon"></span></label>
     <ul class="menu ml-auto">
         <li class="top">
-          <a href="/lists" role="button">Gallery</a>
+          <a role="button">Gallery</a>
         </li>
         <li>
           <a role="button">
@@ -683,13 +683,13 @@
           </a>
         </li>
         <li>
-          <a href="/result2" role="button">Key words</a>
+          <a role="button">Key words</a>
         </li>
         <li>
           <a href="#example" role="button">Register</a>
         </li>
         <li>
-            <a href="/logout" role="button">Logout</a>
+            <a role="button">Logout</a>
         </li>
       </ul>
 </nav>
@@ -771,7 +771,7 @@
             
         <div id="example" class="card" style="margin: auto;">
             <h2>Register Keyword</h2>
-            <form action="{{url_for('main.result_post')}}" method="POST" enctype="multipart/form-data">
+            <form>
                 <input type="file" name="example" accept="image/*"><input type="submit" value="upload">
             </form>
             <br>
@@ -779,7 +779,7 @@
         <div class="card" style="margin: auto;">
             <h2>Pic up image</h2>
             <table>
-                <a class="btn-a-6"  href="/result2" role="button">choose keyword</a>
+                <a class="btn-a-6" role="button">choose keyword</a>
             </table>
         </div>
     </div>
